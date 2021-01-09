@@ -20,7 +20,6 @@ class plant(models.Model):
     img = models.ImageField(upload_to='plantimages',null=True,blank=True)
 
 class order(models.Model):
-    # order_name = models.ForeignKey(customer,on_delete=models.CASCADE)
     name = models.CharField(max_length=20,blank=False)
     address = models.CharField(max_length=50,blank=False,null=True)
     mob = models.IntegerField(max_length=10,blank=False,null=True)
