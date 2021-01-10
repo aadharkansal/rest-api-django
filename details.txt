@@ -1,0 +1,19 @@
+This is a django REST-API with Auth system 
+It has two user auth system made for nursery and customer.
+URL -   BASE_URL/customer/signup/
+        BASE_URL/nursery/signup/
+        BASE_URL/login/
+        BASE_URL/logout/
+
+I made REST API using django rest frameworks and used generic views.
+API Endpoins -  /plants/          - GET - displays all plants.
+                                    POST - Add new plants.
+                /plants/<int:pk>  - GET - Shows specific plant with ID as pk.
+                                    PUT - Updates specific plant with ID as pk.
+                /orders_view/     - GET - shows all orders.
+                /orders/          - POST - create new orders.
+
+NOTE :  This is a full backend service and doesnot contains any template although it has forms for login and signup.
+        Used SQlite as DB to see the database create admin superuser then login BASE_URL/admin/ with credentials.
+        On running the server you wouldn't be able to views html pages. 
+        To test the server you can use postman to make API calls.
