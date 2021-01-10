@@ -1,4 +1,4 @@
-# rest-api-django
+# REST-API-Django
 
 ## Django REST-API With Docker Compose
 
