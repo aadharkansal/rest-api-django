@@ -19,7 +19,7 @@ Uses the default Django development server.
     $ docker-compose up -d --build
     ```
 
-    Test it out at [http://localhost:8001](http://localhost:8001). The "app" folder is mounted into the container and your code changes apply automatically.
+    Test it out at [http://localhost:8001](http://localhost:8001). The "store" folder is mounted into the container and your code changes apply automatically.
     
 ### Test Locally without Docker
 
